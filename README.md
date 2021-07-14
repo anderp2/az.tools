@@ -22,9 +22,9 @@ Pre-requisities
 Script Inventory
 ================
 
-terraform.sh
- Purpose: Run terraform scripts
- Environment variables required for input: 
+**terraform.sh**
+ - Purpose: Run terraform scripts
+ - Environment variables required for input: 
    - ACTION (set to either apply or destroy)
    - ARM_SUBSCRIPTION_ID
    - ARM_CLIENT_ID
