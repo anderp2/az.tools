@@ -18,9 +18,6 @@ System Requirements:
 Pre-requisities
 ===============
 
-Environment variables
-=====================
-
 
 Script Inventory
 ================
@@ -28,11 +25,11 @@ Script Inventory
 terraform.sh
  Purpose: Run terraform scripts
  Environment variables required for input: 
-    ACTION (set to either apply or destroy)
-    ARM_SUBSCRIPTION_ID
-    ARM_CLIENT_ID
-    ARM_CLIENT_SECRET
-    ARM_TENANT_ID
+   - ACTION (set to either apply or destroy)
+   - ARM_SUBSCRIPTION_ID
+   - ARM_CLIENT_ID
+   - ARM_CLIENT_SECRET
+   - ARM_TENANT_ID
 
 
 Additional Documentation:
