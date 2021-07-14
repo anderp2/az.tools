@@ -23,13 +23,10 @@ Script Inventory
 ================
 
 **terraform.sh**
- - Purpose: Run terraform scripts
+ - Purpose: Run terraform init then terraform [apply|destroy]
  - Environment variables required for input: 
    - ACTION (set to either apply or destroy)
-   - ARM_SUBSCRIPTION_ID
-   - ARM_CLIENT_ID
-   - ARM_CLIENT_SECRET
-   - ARM_TENANT_ID
+
 
 
 Additional Documentation:
